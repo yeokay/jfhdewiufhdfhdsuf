@@ -1,32 +1,7 @@
 <!DOCTYPE html>
 <html class="loading">
 <head>
-  <?php
 
-session_start();
-$userLogged = false;
-$isAdmin = false;
-$is_active = false;
-$access_tok = 'null';
-if (isset($_SESSION['username'])) {
-  $userLogged = true;
-  if ($_SESSION['roles'] === "admin") {
-    $isAdmin = true;
-  }
-   if ($_SESSION['status'] === 'active'){
-      $is_active =true;
-  }
-  if($_SESSION['access']!== null){
-      $access_tok = $_SESSION['access'];
-  }
-}
-if($is_active === false){
-  return header("location: ./dashboard?message=account_not_active");
-}
-if ($userLogged !== true) {
-  return header("location: ./?message=user_not_logged");
-}
-?>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
@@ -934,11 +909,11 @@ if ($userLogged !== true) {
 
 
                                 </select>
-                                <br>
+                                         <br>
                                 <button class="btn btn-play btn-glow btn-bg-gradient-x-blue-cyan text-white"
                                     style="width: 49%; float: left;"><i class="fa fa-play"></i> START</button>
                                 <button class="btn btn-stop btn-glow btn-bg-gradient-x-red-pink text-white"
-                                    style="width: 49%; float: right;" disabled><i class="fa fa-stop"></i> STOP</button>
+                                    style="width: 49%; float: right;"><i class="fa fa-stop"></i> STOP</button>
 
 
 
@@ -953,39 +928,9 @@ if ($userLogged !== true) {
                                 <div class="card-body" style="padding:0.9rem;">
 
                                     <div class="modal-body snipcss0-0-0-1 snipcss-YeFJl style-iP3zI" id="style-iP3zI">
-      
-                                                                </select>
-                                                            </center>
-                                                            </center>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-4 col-lg-4 snipcss0-4-8-15">
-                                                        <div class="form-group snipcss0-5-15-16">
+                                     
+                                     
 
-                                                            <!-- <span class="badge snipcss0-7-17-18 style-kIavL" for="inputcvv" id="style-kIavL">
-																	CVV
-																</span> -->
-                                                            <center class="snipcss0-7-17-19">
-
-                                                            </center>
-                                                        </div>
-                                                    </div>
-
-
-                                                            </center>
-                                                            </center>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row snipcss0-3-7-77">
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
                         <div class="card mb-2">
                             <div class="card-body">
 
@@ -1289,9 +1234,9 @@ if ($userLogged !== true) {
 
                 $('.form-checker').val(txt.trim());
                 // ảo ma hả, đừng lấy code chứ !!
-                if (total > 5000) {
+                if (total >30000) {
                     Swal.fire({
-                        title: 'Do You Want Checker to Die? Reduce Card To < 5000',
+                        title: 'Do You Want Checker to Die? Reduce Card To < 29999',
                         icon: 'warning',
                         showConfirmButton: false,
                         toast: true,
