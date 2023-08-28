@@ -3,7 +3,7 @@ session_start();
 if(isset($_POST['login'])){
 
   $password = $_POST['password'];
-   if($password === '£B£HBBCSDbh(/VCSVYHijhdbvuijdbnfv07/&"/£"GDUHCVBDWS/(WE/F&VbhusdcvyuhbSXGCV&WED%F)&'){
+   if($password === '£/RY(£Y=G$(Y£UH$(YU£BG$R£$B"(N(£BUY"N=$)Y(£"NBG£()="H/)$/£"'){
      $_SESSION['login'] = true; header('LOCATION:../index.php'); die();
    } {
      echo "<div class='alert alert-danger'>why youre here?</div>";
