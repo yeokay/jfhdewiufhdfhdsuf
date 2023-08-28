@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <title>SʟᴀʏᴇʀNᴏɴSᴋ</title>
+    <title>𝐮𝐧𝐝𝐞𝐟𝐲 𝐧𝐨𝐧-𝐬𝐤</title>
     <link
         href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i%7CComfortaa:300,400,700"
         rel="stylesheet">
@@ -867,7 +867,7 @@
                                 <span> </span>
                                 <span> </span>
                                 <span> </span>
-                                <h4 class="mb-2">Non Sk Checker</strong></h4>
+                                <h4 class="mb-2">𝐮𝐧𝐝𝐞𝐟𝐲 𝐧𝐨𝐧-𝐬𝐤</strong></h4>
 
                                 <textarea rows="16" id="lista" class="form-control text-center form-checker mb-2"
                                     placeholder=""></textarea>
@@ -889,23 +889,29 @@
                                 <select name="gate" id="gate" class="form-control"
                                     style="margin-bottom: 5px; text-align:center" <option </option>
 
-                                    option
+                                    <option
                                         style="background:rgba(16, 15, 154, 0.281);color:rgb(255, 208, 0);color:white"
-                                        value="gate/pvt.php">Nᴏɴ Sᴋ CCN Charged : $1</option>
+                                        value="gate/ccn50usd.php">𝐜𝐜𝐧 𝟓𝟎$</option>
 
                                     <option
                                         style="background:rgba(16, 15, 154, 0.281);color:rgb(255, 208, 0);color:white"
-                                        value="gate/usd10ccn.php">Nᴏɴ Sᴋ Cᴄɴ  Charged : $10</option> 
+                                        value="gate/ccn100usd.php">𝐜𝐜𝐧 $100</option> 
                                     <option
                                         style="background:rgba(16, 15, 154, 0.281);color:rgb(255, 208, 0);color:white"
-                                        value="gate/eur10ccn.php">Nᴏɴ Sᴋ Cᴄɴ  Charged : €10</option> 
+                                        value="gate/eur10ccn.php">Cᴄɴ €10</option> 
     <option
                                         style="background:rgba(16, 15, 154, 0.281);color:rgb(255, 208, 0);color:white"
-                                        value="gate/pvt.php">Nᴏɴ Sᴋ Cᴄɴ  Charged : $1</option> 
+                                        value="gate/eur1ccn.php">𝐜𝐜𝐧 $1.2</option> 
+    <option
+                                        style="background:rgba(16, 15, 154, 0.281);color:rgb(255, 208, 0);color:white"
+                                        value="gate/usd1ccn.php">𝐜𝐜𝐧 $2</option>
+    <option
+                                        style="background:rgba(16, 15, 154, 0.281);color:rgb(255, 208, 0);color:white"
+                                        value="gate/usd1cvv.php">𝐜vv $1</option> 
 
-                                    <!-- option
+                                    <option
                                         style="background:rgba(16, 15, 154, 0.281);color:rgb(25, 208, 1);color:white"
-                                        value="gate/api2.php">API 2 : Non SK CVV Charged : $1</option> -->
+                                        value="gate/usd10ccn.php">𝐜𝐜𝐧 $10</option> -->
 
 
                                 </select>
