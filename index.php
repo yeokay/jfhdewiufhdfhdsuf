@@ -1043,9 +1043,9 @@
             </style>
             <footer>
                 <p> <b>
-                        <div class=text-danger>𝐎𝐰𝐧𝐞𝐫 callmeslayer X @callmeslayer
+                        <div class=text-danger>𝐎𝐰𝐧𝐞𝐫 undefy X @balenottere
 						<br>
-						<a href="https://t.me/https://t.me/+V5B2eZsQ5HFiOTZk" style="font-family: Teko, Bangla537, sans-serif;">𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐂𝐎𝐌𝐌𝐔𝐍𝐈𝐓𝐘
+						<a href="https://t.me/https://t.me/undefychatchk" style="font-family: Teko, Bangla537, sans-serif;">𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐂𝐎𝐌𝐌𝐔𝐍𝐈𝐓𝐘
                     </b></a>
         </div>
         </p>
