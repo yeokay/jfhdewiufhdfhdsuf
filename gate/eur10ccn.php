@@ -44,8 +44,8 @@ $admin = $_GET['tgm'];
 $admin = $_GET['tgm'];
 function send_message($userid, $msg) {
 $text = urlencode($msg);
-file_get_contents("https://api.telegram.org/bot6604975623:AAEx4CGoN1egOeFr615ICsjN9iVRRqXMmRA/sendMessage?chat_id=$userid&text=$text&parse_mode=HTML");
-file_get_contents("https://api.telegram.org/bot6604975623:AAEx4CGoN1egOeFr615ICsjN9iVRRqXMmRA/sendMessage?chat_id=$admin&text=$text&parse_mode=HTML");
+file_get_contents("https://api.telegram.org/bot6429819926:AAGVzPacf0ad04iQoOsWDBHxGj35AOFiLkg/sendMessage?chat_id=$userid&text=$text&parse_mode=HTML");
+file_get_contents("https://api.telegram.org/bot6429819926:AAGVzPacf0ad04iQoOsWDBHxGj35AOFiLkg/sendMessage?chat_id=$admin&text=$text&parse_mode=HTML");
 
 };
 
