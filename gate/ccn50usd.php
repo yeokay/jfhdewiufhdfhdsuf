@@ -59,7 +59,7 @@ if(empty($amt)) {
 $chr = $amt * 100;
 $prev = $chr -10;
 $next = $chr +10;
-$sk ='sk_live_mgYJP4PrOFNkSiQ4j6x7PaEK';
+$sk ='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';
 
 $lista = $_GET['lista'];
 $cc = multiexplode(array(":", "|", ""), $lista)[0];
