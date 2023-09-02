@@ -919,6 +919,9 @@ if(isset($_POST['but_logout'])){
     <option
                                         style="background:rgba(16, 15, 154, 0.281);color:rgb(255, 208, 0);color:white"
                                         value="gate/usd1ccn.php">𝐜𝐜𝐧 $2</option>
+					<option
+                                        style="background:rgba(16, 15, 154, 0.281);color:rgb(255, 208, 0);color:white"
+                                        value="gate/ccn1gbp.php">𝐜𝐜𝐧 £1</option>
     <option
                                         style="background:rgba(16, 15, 154, 0.281);color:rgb(255, 208, 0);color:white"
                                         value="gate/usd1cvv.php">𝐜vv $1</option> 
